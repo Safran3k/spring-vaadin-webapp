@@ -25,8 +25,11 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
+      - name: Change directory
+        run: cd simple-java-webpage
+
       - name: Build project with Gradle
-        run: ./gradlew build --stacktrace
+        run: ./gradlew build
 
       - name: Run tests
         run: ./gradlew test
