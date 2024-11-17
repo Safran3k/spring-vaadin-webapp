@@ -22,14 +22,14 @@ jobs:
           java-version: '18'
           distribution: 'temurin'
 
-      - name: Change directory
-        run: cd vaadinwebapp
-
       - name: Make gradlew executable
         run: chmod +x ./gradlew
+        working-directory: ./vaadinwebapp
 
       - name: Build project with Gradle
         run: ./gradlew build
+        working-directory: ./vaadinwebapp
 
       - name: Run tests
         run: ./gradlew test
+        working-directory: ./vaadinwebapp
