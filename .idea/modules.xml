@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/simple-java-webpage.iml" filepath="$PROJECT_DIR$/.idea/simple-java-webpage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vaadinwebapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/vaadinwebapp.main.iml" />
     </modules>
   </component>
 </project>
